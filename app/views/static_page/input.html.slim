@@ -1,3 +1,102 @@
-- provide(:title, "Home")
+- provide(:title, "Home") 
 h1 Splastage
 h2 ステージとエリアにてんすうをつけてください。
+
+= simple_form_for(@current_user, url: static_page_update_path) do |f|
+  table
+    tbody
+      tr
+        th 
+        th エリア
+        th ヤグラ
+        th ホコ
+      tr
+        td アロワナ
+        td = f.input_field :arowana_mall_area
+        td = f.input_field :arowana_mall_yagura
+        td = f.input_field :arowana_mall_hoko
+      tr
+        td Bバスパーク
+        td = f.input_field :blackbelly_skatepark_area
+        td = f.input_field :blackbelly_skatepark_yagura
+        td = f.input_field :blackbelly_skatepark_hoko
+      tr
+        td ネギトロ
+        td = f.input_field :buuefin_depot_area
+        td = f.input_field :buuefin_depot_yagura
+        td = f.input_field :buuefin_depot_hoko
+      tr
+        td モンガラ
+        td = f.input_field :camp_triggerfish_area
+        td = f.input_field :camp_triggerfish_yagura
+        td = f.input_field :camp_triggerfish_hoko
+      tr
+        td ヒラメ
+        td = f.input_field :flounder_heights_area
+        td = f.input_field :flounder_heights_yagura
+        td = f.input_field :flounder_heights_hoko
+      tr
+        td モズク
+        td = f.input_field :kelp_dome_area
+        td = f.input_field :kelp_dome_yagura
+        td = f.input_field :kelp_dome_hoko
+      tr
+        td タチウオ
+        td = f.input_field :moray_towers_area
+        td = f.input_field :moray_towers_yagura
+        td = f.input_field :moray_towers_hoko
+      tr
+        td ホッケ
+        td = f.input_field :port_mackerel_area
+        td = f.input_field :port_mackerel_yagura
+        td = f.input_field :port_mackerel_hoko
+      tr
+        td シオノメ
+        td = f.input_field :saltspray_rig_area
+        td = f.input_field :saltspray_rig_yagura
+        td = f.input_field :saltspray_rig_hoko
+      tr
+        td ハコフグ
+        td = f.input_field :walleye_warehouse_area
+        td = f.input_field :walleye_warehouse_yagura
+        td = f.input_field :walleye_warehouse_hoko
+      tr
+        td デカライン
+        td = f.input_field :urchin_underpass_area
+        td = f.input_field :urchin_underpass_yagura
+        td = f.input_field :urchin_underpass_hoko
+      tr
+        td マサバ
+        td = f.input_field :hammerhead_bridge_area
+        td = f.input_field :hammerhead_bridge_yagura
+        td = f.input_field :hammerhead_bridge_hoko
+      tr
+        td キンメダイ
+        td = f.input_field :museum_d_alfonsino_area
+        td = f.input_field :museum_d_alfonsino_yagura
+        td = f.input_field :museum_d_alfonsino_hoko
+      tr
+        td マヒマヒ
+        td = f.input_field :mahi_mahi_resort_area
+        td = f.input_field :mahi_mahi_resort_yagura
+        td = f.input_field :mahi_mahi_resort_hoko
+      tr
+        td アンチョビ
+        td = f.input_field :ancho_v_game_area
+        td = f.input_field :ancho_v_game_yagura
+        td = f.input_field :ancho_v_game_hoko
+      tr
+        td ショッツル
+        td = f.input_field :piraha_pit_area
+        td = f.input_field :piraha_pit_yagura
+        td = f.input_field :piraha_pit_hoko
+        
+        td = f.submit
+
+
+                                  
+          
+          
+    
+  
+        

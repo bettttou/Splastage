@@ -15,7 +15,7 @@ class CreateUsers < ActiveRecord::Migration
       t.integer :blackbelly_skatepark_hoko,  default: 3
 
       #ネギトロ
-      t.integer :buuefin_depot_area,  default: 3
+      t.integer :buuefin_depot_area,  default: 5
       t.integer :buuefin_depot_yagura,  default: 3
       t.integer :buuefin_depot_hoko,  default: 3
 
@@ -60,9 +60,9 @@ class CreateUsers < ActiveRecord::Migration
       t.integer :urchin_underpass_hoko,  default: 3
 
       #マサバ
-      t.integer :hammerhead_bridge_area,  default: 3
-      t.integer :hammerhead_bridge_yagura,  default: 3
-      t.integer :hammerhead_bridge_hoko,  default: 3
+      t.integer :hammerhead_bridge_area,  default: 1
+      t.integer :hammerhead_bridge_yagura,  default: 1
+      t.integer :hammerhead_bridge_hoko,  default: 1
 
       #キンメダイ
       t.integer :museum_d_alfonsino_area,  default: 3

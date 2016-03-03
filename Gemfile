@@ -7,6 +7,12 @@ gem 'bootstrap-sass', '3.2.0.0'
 gem 'slim-rails'
 gem 'puma'
 gem 'pg'
+
+gem 'simple_form'
+gem 'therubyracer'
+gem 'less-rails'
+gem 'twitter-bootstrap-rails'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
