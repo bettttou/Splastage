@@ -12,6 +12,8 @@ gem 'simple_form'
 gem 'therubyracer'
 gem 'less-rails'
 gem 'twitter-bootstrap-rails'
+gem 'sidekiq'
+gem 'sinatra' , require: false
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
